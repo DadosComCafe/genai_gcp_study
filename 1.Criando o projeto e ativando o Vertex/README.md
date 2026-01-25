@@ -21,3 +21,16 @@
 
 
 # Ativando o Vertex
+- Uma vez que foi criado o projeto, e selecionado para uso o projeto recém criado, para ativar o Vertex no projeto, faça:
+    - Na caixa de texto central, pesquise por `Vertex`, e selecione a opção `Vertex AI`:
+    ![Habilitando Vertex](img/habilitando_vertex.png)
+
+- Na página que abrir em sequência, clique em `Ativar APIs` para habilitar o vertex ao projeto:
+    ![Ativar APIS](img/ativando_api.png)
+
+- Na página que abrir em sequência, clique em `Ativar` para ativar as apis obrigatórias para uso da ferramenta:
+    ![Ativar APIS](img/ativando_api2.png)
+
+- Isso pode levar alguns segundos.
+
+# Autenticação e Segurança
