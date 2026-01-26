@@ -34,3 +34,29 @@
 - Isso pode levar alguns segundos.
 
 # Autenticação e Segurança
+- Uma vez que o vertex, neste repositório, será utilizado através do python, será necessário criar uma Conta de Serviço (ou uma `Service Account`) para acessar os recursos do Projeto (no caso, o vertex) do projeto na cloud.
+
+- Para criar uma __Conta de Serviço__, vá em "IAM e Administrador" > "Contas de serviço",
+![Service Account](img/service_account.png)
+
+- Uma vez na página que se abrirá, clique em `+ Create Service Account`:
+![Create Service Account](img/create_service_account.png)
+
+- Para criar a `Service Account`, dê um nome descretivo e forneça sua necessidade de uso, clique em `Create and Continue`:
+![Creating Service Account](img/criando_service_account.png)
+
+- Agora será necessário definir uma Role, que nada mais é do que a permissão que o usuário tem com esta Service Account. Procure por Vertex, e aplique a role `Vertex AI User`. Desta forma, com essa service account será possível usar o Vertex, e nada mais do que isso, aplicando desta forma o princípio do "menor privilégio".
+![Appling Role](img/sa_role.png)
+
+- Clique em `Continue` e `Done`.
+
+## Gerar Chave de Acesso
+Agora você precisa das credenciais, para poder utilizar o "Vertex" em sua máquina local, e criar o seu robo.
+
+- Na lista de contas de serviço, clique no endereço de e-mail da conta que você acabou de criar.
+    - ![Gerando chave](img/gerando_chave1.png)
+
+- Na tela relacionada à `Service Account`, na aba `Keys`, clique no botão `Add Key`, e então em `Create new key`. Haverá uma opção de escolha, escolha o formato json, para gerar a chave em .json.
+    - ![Gerando chave](img/gerando_chave2.png)
+
+- Um arquivo .json será baixado no seu computador, com suas credenciais. É muito importante que não as exponha no seu repositório, por esse motivo no `.gitignore` deste projeto, é ignorado qualquer arquivo .json.
