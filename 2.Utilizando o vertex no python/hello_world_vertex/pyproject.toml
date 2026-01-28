@@ -4,4 +4,8 @@ version = "0.1.0"
 description = "A very simple python script calling vertex ai"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "google-cloud-aiplatform>=1.134.0",
+    "google-genai>=1.60.0",
+    "python-decouple>=3.8",
+]
