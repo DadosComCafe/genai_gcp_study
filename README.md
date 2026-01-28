@@ -7,5 +7,9 @@ Este é um projeto que visa explorar o desenvolvimento de Inteligência Artifici
 ## Índice
 
 - __[1.Criando o projeto e ativando o vertex:](./1.Criando%20o%20projeto%20e%20ativando%20o%20Vertex/README.md)__
-    - Nesta parte do repositório, é explicado como criar o projeto, ativar o vertex e criar a service account, deixando feito todo o necessário para a utilização da ferramenta `vertex` na sua máquina local, seja num script python, de um container docker, ou até mesmo em outra linguagem. 
+    - Nesta parte do repositório, é explicado como criar o projeto, ativar o vertex e criar a service account, deixando feito todo o necessário para a utilização da ferramenta `vertex` na sua máquina local, seja num script python, de um container docker, ou até mesmo em outra linguagem.
+
+- __[2.Utilizando o vertex no python:](./2.Utilizando%20o%20vertex%20no%20python/README.md)__
+    - Neste ponto você já possui um projeto na gcp, o vertex já está habilitado para o seu projeto, você gerou uma service account com a permissão mínima para usar o serviço vertex da gcp.
+    - Agora, vamos iniciar um projeto python com o uv, gerar as variávies de ambiente, e fazer uma primeira pergunta a nossa IA: "Você é uma inteligência artificial?".
 
