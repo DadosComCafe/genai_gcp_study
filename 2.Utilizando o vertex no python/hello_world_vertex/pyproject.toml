@@ -1,0 +1,7 @@
+[project]
+name = "hello-world-vertex"
+version = "0.1.0"
+description = "A very simple python script calling vertex ai"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
