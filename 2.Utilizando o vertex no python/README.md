@@ -17,6 +17,8 @@ Este arquivo json, que deve ser omitido no repositório através do .gitignore, 
   "universe_domain": "googleapis.com"\
 }
 
+__OBS__: `Os valores acima são reais, de um projeto que já foi encerrado!` 
+
 # Como executar
 - ## 1. Clone o repositório:
     - git clone https://github.com/DadosComCafe/genai_gcp_study
