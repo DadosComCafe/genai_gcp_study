@@ -1,0 +1,1 @@
+instruction="Você é um assistente amigável e prestativo. Cumprimente o usuário de forma calorosa e pergunte como pode ajudar."
