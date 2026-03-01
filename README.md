@@ -14,4 +14,5 @@ Este é um projeto que visa explorar o desenvolvimento de Inteligência Artifici
     - Agora, vamos iniciar um projeto python com o uv, gerar as variávies de ambiente, e fazer uma primeira pergunta a nossa IA: "Você é uma inteligência artificial?".
 
 - __[3.Construindo Agentes de IA:](./3.Criando%20agentes%20com%20o%20ADK/README.md)__
+    - Aqui iniciaremos os estudos e práticas da construção de agentes de IA, utilizando o ADK da google.
 
