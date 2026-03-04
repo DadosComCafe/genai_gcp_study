@@ -1,5 +1,9 @@
 # Criando Agentes de IA
 ## Iniciando a IA Agêntica
+## Sobre
+Iniciando o entendimento de A agêntica, com a criação de um agente simples, e dois inicializadores distintos: - Um mantém o contexto, e o outro não.
+
+A IA Agêntica é um novo paradigma para a inteligência artificial, tal como a orientação a objeto foi para o desenvolvimento de software.
 
 ## Como Rodar?
 ### 1 - __Clone o repositório:__
