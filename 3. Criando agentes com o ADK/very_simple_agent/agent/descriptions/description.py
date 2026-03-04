@@ -1,1 +1,0 @@
-description="Um agente amigável que cumprimenta usuários"

@@ -13,3 +13,6 @@ Este é um projeto que visa explorar o desenvolvimento de Inteligência Artifici
     - Neste ponto você já possui um projeto na gcp, o vertex já está habilitado para o seu projeto, você gerou uma service account com a permissão mínima para usar o serviço vertex da gcp.
     - Agora, vamos iniciar um projeto python com o uv, gerar as variávies de ambiente, e fazer uma primeira pergunta a nossa IA: "Você é uma inteligência artificial?".
 
+- __[3.Construindo Agentes de IA:](./3.Criando%20agentes%20com%20o%20ADK/README.md)__
+    - Aqui iniciaremos os estudos e práticas da construção de agentes de IA, utilizando o ADK da google.
+
