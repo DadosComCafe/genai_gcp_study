@@ -1,6 +1,7 @@
-def main():
-    print("Hello from playground!")
+from fastapi import FastAPI
+from app.decorators.decorators import router
+from app import routes
 
+app = FastAPI()
 
-if __name__ == "__main__":
-    main()
+app.include_router(router)
