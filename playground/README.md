@@ -11,3 +11,13 @@ Desta forma, as interações com a IA vão ocorrer através da realização de p
 * uv sync
 * cd app/server
 * uvicorn main:app --reload
+
+Ou utilizando docker:
+* Buildar a imagem:
+    - Com o terminal aberto na raiz do projeto playground, execute:
+    - docker build -t fastapi_server:1.0 .
+
+* Rodar o servidor:
+    - docker run -p 3000:3000 fastapi_server:1.0
+
+
