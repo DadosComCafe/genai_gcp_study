@@ -1,1 +1,2 @@
 # GEMINIAPIKEY
+Para desenvolvimento local, prototipagem, testar ideias, criar scripts, estudar ou desenvolver agents no terminal/Jupyter Notebook sem complicação de IAM. Ou seja, sem precisar criar um projeto, configurar o acesso e as roles no IAM.
