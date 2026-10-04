@@ -1,14 +1,18 @@
 import os
 from google import genai
+from decouple import config
 
-client = genai.Client(api_key=os.environ.get("GEMINI_API_KEY"))
+GEMINI_API_KEY = config("GEMINI_API_KEY")
+MODEL_NAME = config("MODEL_NAME")
+os.getenv(GEMINI_API_KEY)
 
-interaction = client.interactions.create(
-    model="gemini-3.8-flash",
-    input="""
-    Por favor, explique em português quando o uso das credenciais
-    do gemini pela GEMINI_API_KEY é recomendado.
-    """
-)
+client = genai.Client(api_key=GEMINI_API_KEY)
+chat = client.chats.create(model=MODEL_NAME)
 
-print(interaction.outputs[0].text)
+while True:
+    mensagem = input("Você: ")
+    if mensagem.lower() in {"sair", "exit"}:
+        break
+
+    resposta = chat.send_message(mensagem)
+    print("Gemini:", resposta.text)
